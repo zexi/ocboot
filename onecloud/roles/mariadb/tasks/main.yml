@@ -57,7 +57,7 @@
   systemd:
     name: mariadb
     enabled: yes
-    state: started
+    state: restarted
 
 - name: Change root password
   mysql_user:
